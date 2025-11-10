@@ -26,6 +26,16 @@ h1, h2
     border-radius: 0;
 }
 
+.bg-buttons {
+    background-color: #1d6d8a;
+    color: white;
+}
+
+.btn:not(.btn-outline-secondary):hover {
+    border: 1px solid #184f63;
+    color: #184f63;
+}
+
 /* Hero Section */
 #hero {
     background-color: #dbdcde;
